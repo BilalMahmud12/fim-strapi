@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_paragraphs",
+  "info": {
+    "displayName": "Paragraph",
+    "icon": "layer"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Paragraph": {
+      "type": "text"
+    },
+    "ShowTitle": {
+      "type": "boolean"
+    },
+    "FontSize": {
+      "type": "integer"
+    }
+  }
+}

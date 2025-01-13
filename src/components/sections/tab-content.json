@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_sections_tab_contents",
+  "info": {
+    "displayName": "Tab Content",
+    "icon": "dashboard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "SubHeader": {
+      "type": "string"
+    },
+    "Cover": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "TextContent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.paragraph",
+      "displayName": "Text Content"
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}

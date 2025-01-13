@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_navigations",
+  "info": {
+    "displayName": "Navigation",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "Links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    }
+  }
+}

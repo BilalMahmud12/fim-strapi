@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_who_we_ares",
+  "info": {
+    "displayName": "WhoWeAre",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "SectionContent": {
+      "type": "richtext"
+    },
+    "Tiles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.simple-text"
+    },
+    "Cover": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

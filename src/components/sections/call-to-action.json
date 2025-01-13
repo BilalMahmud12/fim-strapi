@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sections_call_to_actions",
+  "info": {
+    "displayName": "CallToAction",
+    "icon": "phone"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Message": {
+      "type": "text"
+    },
+    "WebsiteURL": {
+      "type": "string"
+    },
+    "WebsiteLabel": {
+      "type": "string"
+    },
+    "Phone": {
+      "type": "string"
+    },
+    "Slogan": {
+      "type": "string"
+    }
+  }
+}

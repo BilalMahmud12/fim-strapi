@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "meta_description": {
+      "type": "text"
+    },
+    "Business": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.how-we-do-business"
+    },
+    "About": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.who-we-are"
+    },
+    "Offers": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.our-offerings"
+    }
+  }
+}

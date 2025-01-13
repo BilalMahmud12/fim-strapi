@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_single_slides",
+  "info": {
+    "displayName": "SingleSlide"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Link": {
+      "type": "string"
+    },
+    "Link_External": {
+      "type": "string"
+    },
+    "Cover": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

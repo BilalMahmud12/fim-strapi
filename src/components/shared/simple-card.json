@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_simple_cards",
+  "info": {
+    "displayName": "SimpleCard"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Cover": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

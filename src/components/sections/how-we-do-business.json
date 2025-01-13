@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_how_we_do_businesses",
+  "info": {
+    "displayName": "HowWeDoBusiness",
+    "icon": "attachment"
+  },
+  "options": {},
+  "attributes": {
+    "Video": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.video"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_sections_footers",
+  "info": {
+    "displayName": "Footer",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "Copyright": {
+      "type": "string"
+    },
+    "Newsletter_Label": {
+      "type": "string"
+    },
+    "Newsletter_message": {
+      "type": "string"
+    },
+    "Navigation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.navigation"
+    },
+    "Contacts": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.contacts"
+    }
+  }
+}

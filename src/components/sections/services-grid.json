@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_services_grids",
+  "info": {
+    "displayName": "ServicesGrid",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "GridItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.service-card"
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}

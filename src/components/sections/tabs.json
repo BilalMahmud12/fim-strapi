@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_tabs",
+  "info": {
+    "displayName": "Tabs",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "TabsContent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.tab-content"
+    }
+  }
+}

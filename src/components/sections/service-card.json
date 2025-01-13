@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_sections_service_cards",
+  "info": {
+    "displayName": "ServiceCard",
+    "icon": "file",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "LinkLabel": {
+      "type": "string"
+    },
+    "LinkUrl": {
+      "type": "string"
+    },
+    "Cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
